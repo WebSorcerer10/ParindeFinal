@@ -14,10 +14,10 @@ import image1 from '../../Assets/waterfalls.jpeg'
 import image2 from '../../Assets/waterfalls.jpeg'
 import image3 from '../../Assets/waterfalls.jpeg'
 import image4 from '../../Assets/waterfalls.jpeg'
-import image5 from '../../Assets/waterfalls.jpeg'
-import image6 from '../../Assets/waterfalls.jpeg'
-import image7 from '../../Assets/waterfalls.jpeg'
-import image8 from '../../Assets/waterfalls.jpeg'
+import image5 from '../../Assets/ujjain mahakal.jpeg'
+import image6 from '../../Assets/Tribal museum.jpg'
+import image7 from '../../Assets/Udaygiri caves.jpg'
+import image8 from '../../Assets/Bhojpur-temple.jpg'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -56,29 +56,29 @@ const destinations = [
   {
     id: 5,
     img: image5,
-    name: 'Bali Island',
-    location: 'Indonesia',
+    name: 'Ujjain Mahakal',
+    location: 'Ujjain',
     rating: 4.9
   },
   {
     id: 6,
     img: image6,
-    name: 'Maui Island',
-    location: 'Hawaii, USA',
+    name: 'Tribal museum',
+    location: 'Bhopal',
     rating: 4.9
   },
   {
     id: 7,
     img: image7,
-    name: 'Capri Island',
-    location: 'Italy',
+    name: 'Udaygiri caves',
+    location: 'Bhopal',
     rating: 4.7
   },
   {
     id: 8,
     img: image8,
-    name: 'Fiji Island',
-    location: 'South Pacific',
+    name: 'Bhojpur-temple',
+    location: 'Bhopal',
     rating: 4.4
   }
 ]
