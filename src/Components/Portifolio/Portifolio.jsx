@@ -2,10 +2,10 @@ import React, { useEffect } from 'react'
 import './Portifolio.css'
 
 // Iomported Images
-import image from '../../Assets/girlcalling.jpg'
-import Icon1 from '../../Assets/girlcalling.jpg'
-import Icon2 from '../../Assets/girlcalling.jpg'
-import Icon3 from '../../Assets/girlcalling.jpg'
+import image from '../../Assets/friends.png'
+import Icon1 from '../../Assets/hands-together.jpg'
+import Icon2 from '../../Assets/Path.jpg'
+import Icon3 from '../../Assets/Phone.png'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
