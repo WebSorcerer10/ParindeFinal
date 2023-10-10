@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
+root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(13, 64%, 96%);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.portifolio .secContainer {
+  gap: 2rem;
+}
+.portifolio .secContainer .leftContent .grid .singlePortifolio {
+  gap: 1rem;
+  align-items: flex-start;
+}
+.portifolio .secContainer .leftContent .grid .singlePortifolio .iconDiv img {
+  height: 50px;
+  width: 50px;
+}
+.portifolio .secContainer .leftContent .grid .singlePortifolio .infor h4 {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .portifolio .secContainer .leftContent .secHeading h3 {
+    font-size: var(--h2FontSize);
+  }
+  .portifolio .secContainer .leftContent .secHeading p {
+    font-size: var(--normalFontSize);
+    padding: 0.5rem 0;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+    gap: 1.5rem;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .iconDiv img {
+    height: 60px;
+    width: 60px;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor h4 {
+    padding-bottom: 0.5rem;
+    font-size: var(--h3FontSize);
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor p {
+    font-size: var(--normalFontSize);
+  }
+}
+@media screen and (min-width: 660px) {
+  .portifolio .secContainer .leftContent .secHeading h3 {
+    font-size: 2rem;
+  }
+  .portifolio .secContainer .leftContent .secHeading p {
+    font-size: var(--h3FontSize);
+  }
+  .portifolio .secContainer .leftContent .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+    gap: 1.5rem;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .iconDiv img {
+    height: 60px;
+    width: 60px;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor h4 {
+    padding-bottom: 0.5rem;
+    font-size: var(--h3FontSize);
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor p {
+    font-size: var(--normalFontSize);
+  }
+  .portifolio .secContainer .rightContent {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .portifolio .secContainer .rightContent img {
+    margin: auto;
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 820px) {
+  .portifolio .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portifolio .secContainer .leftContent .secHeading h3 {
+    font-size: var(--h2FontSize);
+  }
+  .portifolio .secContainer .leftContent .secHeading p {
+    font-size: var(--h3FontSize);
+  }
+  .portifolio .secContainer .leftContent .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+    gap: 1.5rem;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .iconDiv img {
+    height: 60px;
+    width: 60px;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor h4 {
+    padding-bottom: 0.5rem;
+    font-size: var(--h3FontSize);
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor p {
+    font-size: var(--normalFontSize);
+  }
+  .portifolio .secContainer .rightContent img {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .portifolio .secContainer {
+    gap: 3rem;
+  }
+  .portifolio .secContainer .leftContent .secHeading h3 {
+    font-size: 2rem;
+  }
+  .portifolio .secContainer .leftContent .secHeading p {
+    font-size: var(--h3FontSize);
+  }
+  .portifolio .secContainer .leftContent .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+    margin-top: 3rem;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+    gap: 2rem;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .iconDiv img {
+    height: 60px;
+    width: 60px;
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor h4 {
+    padding-bottom: 0.5rem;
+    font-size: var(--h2FontSize);
+  }
+  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor p {
+    font-size: var(--h3FontSize);
+  }
+  .portifolio .secContainer .rightContent img {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=Portifolio.css.map */
