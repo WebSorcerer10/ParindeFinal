@@ -3,10 +3,10 @@ import "./Home.css";
 
 // Import Assets
 import Video from "../../Assets/bhopal video.mp4";
-import image1 from '../../Assets/waterfalls.jpeg'
-import image2 from '../../Assets/waterfalls.jpeg'
-import image3 from '../../Assets/waterfalls.jpeg'
-import image4 from '../../Assets/waterfalls.jpeg'
+import image1 from '../../Assets/Bhojpur-temple.jpg'
+import image2 from '../../Assets/sanchi.jpg'
+import image3 from '../../Assets/upper lake.jpeg'
+import image4 from '../../Assets/p1.jpg'
 
 // Import Icons
 import { AiOutlineSwapRight } from "react-icons/ai";

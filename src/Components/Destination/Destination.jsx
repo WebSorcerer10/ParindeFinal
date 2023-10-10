@@ -10,10 +10,10 @@ import { TiLocation } from 'react-icons/ti'
 
 
 // Imported Images
-import image1 from '../../Assets/waterfalls.jpeg'
-import image2 from '../../Assets/waterfalls.jpeg'
-import image3 from '../../Assets/waterfalls.jpeg'
-import image4 from '../../Assets/waterfalls.jpeg'
+import image1 from '../../Assets/Panchmarhi.jpeg'
+import image2 from '../../Assets/Bhimbetka,_Madhya_Pradesh.jpg'
+import image3 from '../../Assets/R.jpeg'
+import image4 from '../../Assets/pandav falls(khajurao).jpg'
 import image5 from '../../Assets/waterfalls.jpeg'
 import image6 from '../../Assets/waterfalls.jpeg'
 import image7 from '../../Assets/waterfalls.jpeg'
@@ -28,29 +28,29 @@ const destinations = [
   {
     id: 1,
     img: image1,
-    name: 'Seychelles Island',
-    location: 'Indian Ocean',
+    name: 'Panchmarhi',
+    location: 'Madhya Pradesh',
     rating: 4.7
   },
   {
     id:2,
     img: image2,
-    name: 'Bora Bora Island',
-    location: 'Polynesia',
+    name: 'Bhimbetka caves',
+    location: 'Bhopal',
     rating: 4.3
   },
   {
     id: 3,
     img: image3,
-    name: 'Maldives Island',
-    location: 'Indian Ocean',
+    name: 'Mandu',
+    location: 'Indore',
     rating: 4.9
   },
   {
     id: 4,
     img: image4,
-    name: 'Santorini Island',
-    location: 'Greece',
+    name: 'Pandav Falls',
+    location: 'Khajurao',
     rating: 4.5
   },
   {
