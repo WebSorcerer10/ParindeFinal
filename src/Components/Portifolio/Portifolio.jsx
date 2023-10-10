@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Portifolio.css'
 
 // Iomported Images
-import image from '../../Assets/friends.png'
+import image from '../../Assets/Tiger.jpg'
 import Icon1 from '../../Assets/hands-together.jpg'
 import Icon2 from '../../Assets/Path.jpg'
 import Icon3 from '../../Assets/Phone.png'
