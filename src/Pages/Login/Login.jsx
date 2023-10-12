@@ -3,7 +3,7 @@ import React from "react";
 import {Container, Row, Col, Form, FormGroup, Button } from 'reactstrap'; 
 import {Link} from 'react-router-dom' 
 import '../Login/Login.css'
-import loginImg from'../../Assets/login1.png'
+import loginImg from'../../Assets/login2.jpg'
 import userIcon from '../../Assets/login.jpg'
 import { useState } from "react";
 
