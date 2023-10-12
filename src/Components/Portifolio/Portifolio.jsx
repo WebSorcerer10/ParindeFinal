@@ -2,10 +2,10 @@ import React, { useEffect } from 'react'
 import './Portifolio.css'
 
 // Iomported Images
-import image from '../../Assets/girlcalling.jpg'
-import Icon1 from '../../Assets/girlcalling.jpg'
-import Icon2 from '../../Assets/girlcalling.jpg'
-import Icon3 from '../../Assets/girlcalling.jpg'
+import image from '../../Assets/Sunlake.jpg'
+import Icon1 from '../../Assets/hands-together.jpg'
+import Icon2 from '../../Assets/Path.jpg'
+import Icon3 from '../../Assets/Phone.png'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -24,7 +24,7 @@ useEffect(() => {
           <div className="secHeading" data-aos="fade-up">
             <h3>Why Should You Choose Us</h3>
             <p>
-              We have extensive knowledge and experience in the travel industry.
+              We are the only travel planning site which will help you in exploring the hidden gems of the places like Bhopal,Indore and Ujjain.
             </p>
           </div>
 
@@ -49,9 +49,7 @@ useEffect(() => {
               <div className="infor">
                 <h4>Diverse Range of Destinations</h4>
                 <p>
-                  Whether it's a domestic tour or an international adventure, we
-                  cover a wide range of destinations to cater to different
-                  interests and preferences.
+                  You can explore the unexplored places.
                 </p>
               </div>
             </div>

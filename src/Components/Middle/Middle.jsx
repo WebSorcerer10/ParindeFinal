@@ -14,15 +14,15 @@ const Middle = () => {
       <div className="secContainer container">
         <div className="grid">
           <span className="flex" data-aos="fade-up">
-            <h1>10</h1>
-            <p>World Of Experience</p>
+            <h1>Hidden</h1>
+            <p>Beauty of MP</p>
           </span>
           <span className="flex" data-aos="fade-up">
-            <h1>2K+</h1>
-            <p>Fine Destinations</p>
+            <h1>20+</h1>
+            <p>Unexplored Destinations</p>
           </span>
           <span className="flex" data-aos="fade-up">
-            <h1>10K+</h1>
+            <h1>Good</h1>
             <p>Customer Reviews</p>
           </span>
           <span className="flex" data-aos="fade-up">

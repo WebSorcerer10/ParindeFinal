@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Subscribe.css'
 
 // Imported images
-import image from '../../Assets/girlcalling.jpg'
+import image from '../../Assets/city-girl-women-female.jpg'
 
 import Aos from "aos";
 import "aos/dist/aos.css";

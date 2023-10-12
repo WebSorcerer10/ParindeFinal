@@ -69,8 +69,8 @@ const Footer = () => {
           className="footerLinks"
         >
           <span className="linkTitle">Contact</span>
-          <span className="phone">+651 125 658</span>
-          <span className="email">isratech8@outlook.com</span>
+          <span className="phone">7007237143</span>
+          <span className="email">parinde@gmail.com</span>
         </div>
       </div>
     </div>

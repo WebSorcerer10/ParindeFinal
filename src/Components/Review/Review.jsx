@@ -5,11 +5,11 @@ import "./Review.css";
 import { AiFillStar } from "react-icons/ai";
 
 // Imported Images
-import Image1 from '../../Assets/girlcalling.jpg'
-import Image2 from '../../Assets/girlcalling.jpg'
-import Image3 from '../../Assets/girlcalling.jpg'
-import Image4 from '../../Assets/girlcalling.jpg'
-import Image5 from '../../Assets/girlcalling.jpg'
+import Image1 from '../../Assets/girl-image.jpg'
+import Image2 from '../../Assets/bijliwaliladki.jpg'
+import Image3 from '../../Assets/blackpicdp.jpg'
+import Image4 from '../../Assets/boy-image.jpg'
+import Image5 from '../../Assets/friends.png'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
