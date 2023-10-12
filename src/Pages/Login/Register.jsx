@@ -19,7 +19,7 @@ const Register = () =>{
     };
 
     const handleClick = e=>{
-        e.preventDefault();
+        e.preventDefault();np
     }
     return (
     <section>
