@@ -14,10 +14,14 @@ const TourDetails=()=>{
     const{photo,title,desc,price,address,reviews,city,distance,maxGroupSize}=
     tour;
 
-    const {totalRating,avgRating}=calculateAvgRating(reviews)
+    const {totalRating,avgRating}=calculateAvgRating(reviews);
+
+    // format date
+    const options = {day:'numeric', month:'long', year:'numeric'};
 
 
-    return <>
+    return (
+    <>
     <section>
         <Container>
             <Row>
@@ -97,10 +101,15 @@ const TourDetails=()=>{
                                                     <div className="d-flex align-items-center justify-content-between">
                                                         <div>
                                                             <h5>muhib</h5>
-                                                            <p></p>
+                                                            <p>{new Date('01-18-2023').toLocaleDateString("en-US", options)}</p>
                                                         </div>
+                                                        <span className="d-flex align-items-center">
+                                                            5<i class="ri-star-s-fill"></i>
+                                                        </span>
 
                                                     </div>
+
+                                                    <h6>Amazing tour</h6>
                                                 </div>
                                             </div>
                                         ))
@@ -117,6 +126,6 @@ const TourDetails=()=>{
         </Container>
     </section>
     </>
-};
+)};
 
 export default TourDetails;
