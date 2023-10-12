@@ -24,9 +24,9 @@ const Login = () =>{
     <section>
         <Container>
             <Row>
-                <Col lg='8' clasNmae="m-auto">
+                <Col lg='8' className="m-auto">
                     <div className="login_container d-flex justify-content-between">
-                        <div className="login__img">
+                        <div className="login_img">
 
                             <img src={loginImg} alt=""/>
 
@@ -38,12 +38,12 @@ const Login = () =>{
                             <h2>Login</h2>
                             <Form onSubmit={handleClick}>
                                <FormGroup>
-                                <input type="email" placeholder="Email" required id="email" onChange={handleChang}/>
+                                <input type="email" placeholder="Email" required id="email" onChange={handleChange}/>
                                 </FormGroup>
                                <FormGroup>
                                 <input type="password" placeholder="Password" required id="password" onChange={handleChange}/>
                                 </FormGroup> 
-                                <Button className="btn secondary__btn auth__btn" type="submit">Login
+                                <Button className="btn secondary_btn auth_btn" type="submit">Login
                                 </Button>
                             </Form>
                             <p>Don't have an account?<Link to='/register'>Create</Link></p>

@@ -25,9 +25,9 @@ const Register = () =>{
     <section>
         <Container>
             <Row>
-                <Col lg='8' clasNmae="m-auto">
+                <Col lg='8' className="m-auto">
                     <div className="login_container d-flex justify-content-between">
-                        <div className="login__img">
+                        <div className="login_img">
 
                             <img src={registerImg} alt=""/>
 
@@ -39,15 +39,15 @@ const Register = () =>{
                             <h2>Register</h2>
                             <Form onSubmit={handleClick}>
                                 <FormGroup>
-                                <input type="text" placeholder="Username" required id="username" onChange={handleChang}/>
+                                <input type="text" placeholder="Username" required id="username" onChange={handleChange}/>
                                 </FormGroup>
                                <FormGroup>
-                                <input type="email" placeholder="Email" required id="email" onChange={handleChang}/>
+                                <input type="email" placeholder="Email" required id="email" onChange={handleChange}/>
                                 </FormGroup>
                                <FormGroup>
                                 <input type="password" placeholder="Password" required id="password" onChange={handleChange}/>
                                 </FormGroup> 
-                                <Button className="btn secondary__btn auth__btn" type="submit">Create Account
+                                <Button className="btn secondary_btn auth_btn" type="submit">Create Account
                                 </Button>
                             </Form>
                             <p>Already have an account?<Link to='/login'>Login</Link></p>

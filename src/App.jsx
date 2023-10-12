@@ -1,28 +1,20 @@
-import Navbar from "./Components/NavBar/Navbar"
-import Home from "./Components/Home/Home"
-import Middle from "./Components/Middle/Middle"
-import Destination from "./Components/Destination/Destination"
-import Portifolio from "./Components/Portifolio/Portifolio"
-import Review from "./Components/Review/Review"
-import Questions from "./Components/Questions/Questions"
-import Subscribe from "./Components/Subscribe/Subscribe"
-import Footer from "./Components/Footer/Footer"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Homepage from './Components/Homepage/Homepage'
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Login/Register"
+
 import './App.css'
 
 function App() {
-
   return (
-   <>
-   <Navbar/>
-   <Home/>
-   <Middle/>
-   <Destination/>
-   <Portifolio/>
-   <Review/>
-   <Questions/>
-   <Subscribe/>
-   <Footer/>
-</>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Register />} />
+      </Routes>
+    </Router>
   )
 }
 

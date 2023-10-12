@@ -6,6 +6,7 @@ import {BiLogoMediumOld} from 'react-icons/bi'
 import { PiDotsNineBold } from 'react-icons/pi'
 import { AiFillCloseCircle } from 'react-icons/ai'
 
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -57,9 +58,12 @@ const Navbar = () => {
       <AiFillCloseCircle className='icon closeIcon' onClick={removeNavBar}/>
         
       </div>
-      <button className="siginBtn btn">
+      {/* <button className="siginBtn btn" onClick={Login}>
         Sign Up
-      </button>
+      </button> */}
+      <Link to="/login" className="siginBtn btn">
+        Sign Up
+      </Link>
       {/* Icon to toggle Navbar */}
       <PiDotsNineBold className='icon menuIcon' onClick={showNavBar}/>
     </div>
