@@ -1,8 +1,11 @@
 import React from "react";
-import'../styles/tour-details.css'
-import {Container,Row,Col,Form,ListGroup} from 'reactstrap'//124,4k
-import{useParams} from 'react-router-dom' //1.6k(gzipped:747)
-import tourData from '../assests/data/tours'
+import"../styles/tour-details.css";
+import {Container,Row,Col,Form,ListGroup} from "reactstrap";  
+import{useParams} from 'react-router-dom';
+import tourData from "../assests/data/tours";
+import calculateAvgRating from "../assets/images/";
+import avatar from "../assets/images/avatar.jpg";
+
 const TourDetails=()=>{
 
     const id=useParams()
@@ -83,7 +86,28 @@ const TourDetails=()=>{
 
                                     </div>
                                 </Form>
+
+                                <ListGroup className="user__reviews">
+                                    {
+                                        reviews?.map(review=>(
+                                            <div className="review__item">
+                                                <img src={avatar} alt="" />
+
+                                                <div className="w-100">
+                                                    <div className="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <h5>muhib</h5>
+                                                            <p></p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
+                                </ListGroup>
                             </div>
+                            {/*=========== tour reviews section end============= */}
 
                             
                         </div>
