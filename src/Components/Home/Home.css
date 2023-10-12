@@ -122,7 +122,7 @@ root {
     font-weight: 900;
     max-width: 70%;
     margin: auto;
-    color: black;
+    color: rgb(245, 186, 186);
   }
   .Home .sectionText p {
     padding: 1rem 0;

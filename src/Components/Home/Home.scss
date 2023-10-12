@@ -50,6 +50,8 @@ root {
     h1 {
       font-size: var(--biggestFontSize);
       font-weight: 900;
+      
+      
       // -webkit-text-fill-color: transparent;
       // -webkit-text-stroke-width: 1px;
     }
@@ -144,7 +146,7 @@ root {
         max-width: 70%;
         margin: auto;
 
-        color: black;
+        color: rgb(227, 201, 201);
       }
 
       p {
