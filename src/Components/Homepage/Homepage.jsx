@@ -7,6 +7,7 @@ import Review from "../Review/Review"
 import Questions from "../Questions/Questions"
 import Subscribe from "../Subscribe/Subscribe"
 import Footer from "../Footer/Footer"
+import Card from "../../Pages/Login/Card"
 
 const Homepage = () => {
     return (

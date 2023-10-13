@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import './Destination.css'
 
+import { Link } from 'react-router-dom'
+
 //Imported Icons
 import {MdLocationPin} from 'react-icons/md'
 import {BsFillCreditCardFill} from 'react-icons/bs'
@@ -92,9 +94,19 @@ useEffect(() => {
 
   return (
     <div className="destination section container">
+      <Link to="/login" className="destination section container">
+
       <div className="secContainer">
         <div className="secTitle" data-aos="fade-up">
-          <span className="redText">EXPLORE NOW</span>
+
+        
+
+          <span>
+          <Link to="/Card" className="redText">
+           
+        EXPLORE NOW
+        </Link>
+        </span>
           <h3>Find Your Dream Destination </h3>
           <p>
             Fill in the fields below to find the best spot for your next tour.
@@ -156,6 +168,7 @@ useEffect(() => {
           })}
         </div>
       </div>
+      </Link>
     </div>
   );
 }

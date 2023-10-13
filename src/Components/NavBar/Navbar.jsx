@@ -44,8 +44,10 @@ const Navbar = () => {
           <li className="navList">
            Destination
           </li>
-          <li className="navList">
+          <li>
+          <Link to="/login" className="navList">
            About Us
+           </Link>
           </li>
           <li className="navList">
            Testimonial
