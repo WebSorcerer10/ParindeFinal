@@ -19,6 +19,14 @@ const TourDetails=()=>{
     // format date
     const options = {day:'numeric', month:'long', year:'numeric'};
 
+    const submitHandler=e=>{
+        e.preventDefault()
+        const reviewText=reviewMsgRef.current.value;
+
+        alert('${reviewText}.${tourRating}')
+
+    }
+
 
     return (
     <>
@@ -65,27 +73,27 @@ const TourDetails=()=>{
                             {/*===========tourreview======*/}
                             <div className="tour__reviews mt-4">
                                 <h4>Reviews({reviews?.length}reviews)</h4>
-                                <Form>
+                                <Form onSubmit={submitHandler}>
                                     <div className="d-flex align-items-center gap-3 mb-4 rating__group">
-                                        <span>1
+                                        <span onclick={()=>setTourRating(1)}>1
                                             <i class="ri-star-s-line">
                                               </i></span>
-                                        <span>2
+                                        <span onclick={()=>setTourRating(2)}>2
                                             <i class="ri-star-s-line"></i>
                                             </span>
-                                        <span>3
+                                        <span onclick={()=>setTourRating(3)}>3
                                             <i class="ri-star-s-line"></i>
                                             </span>
-                                        <span>4
+                                        <span onclick={()=>setTourRating(4)}>4
                                             <i class="ri-star-s-line"></i>
                                             </span>
-                                        <span>5
+                                        <span onclick={()=>setTourRating(5)}>5
                                             <i class="ri-star-s-line"></i>
                                             </span>
 
                                     </div>
                                     <div className="review__input">
-                                        <input type="text" placeholder="share your thoughts"/>
+                                        <input type="text" ref={reviewMsgRef} placeholder="share your thoughts"/>
                                         <button className="btn primary__btn text-white"type="submit">
                                             Submit
                                         </button>
